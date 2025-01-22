@@ -58,11 +58,11 @@ Please provide links to the following:
     2. Link to your starter code repository: https://github.com/MarcusNelhams/CSE111_Team17_Project_Starter_Code
 
 2.
-    1. Link to a **FAILING** action run that builds your final project source files.
+    1. Link to a **FAILING** action run that builds your final project source files: https://github.com/MarcusNelhams/CSE111_Team17_Project/actions/runs/12915853196
     2. Link to a **PASSING** action run that builds your final project source files: https://github.com/MarcusNelhams/CSE111_Team17_Project/actions/runs/12915696682/job/36018149656
 
 3.
-    1. Link to a **FAILING** action that verifies the format of your final project source files.
+    1. Link to a **FAILING** action that verifies the format of your final project source files: https://github.com/MarcusNelhams/CSE111_Team17_Project/actions/runs/12915853196
     2. Link to a **PASSING** action that verifies the format of your final project source files: https://github.com/MarcusNelhams/CSE111_Team17_Project/actions/runs/12915696682/job/36018149656
 
 4.

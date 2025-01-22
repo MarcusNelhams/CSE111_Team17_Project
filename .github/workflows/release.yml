@@ -20,3 +20,11 @@ jobs:
         run: |
           make -C docs assignment.pdf
           mv docs/assignment.pdf hw4_${{ env.TAG_NAME }}.pdf
+      - uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: True
+          omitBody: True
+          tag: ${{ env.TAG_NAME }}
+          artifacts: |
+            hw4_${{ env.TAG_NAME }}.pdf
+          token: ${{ secrets.GITHUB_TOKEN }}

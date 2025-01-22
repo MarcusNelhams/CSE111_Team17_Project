@@ -12,14 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: Install Tools
         run: |
-          sudo apt update
-          sudo apt install -y pandoc texlive
-          pandoc --version
-          pdflatex --version
-      - name: Build report.pdf
+          make -C docs report.pdf
+          mv docs/report.pdf hw4_${{ env.TAG_NAME }}.pdf
+      - name: Create Tag
         run: |
-          make -C docs assignment.pdf
-          mv docs/assignment.pdf hw4_${{ env.TAG_NAME }}.pdf
+          echo "TAG_NAME=$(date +%Y.%m.%d.%H.%M)" >> "$GITHUB_ENV"
+          git tag ${{ env.TAG_NAME }}
+          git push origin ${{ env.TAG_NAME }}
       - uses: ncipollo/release-action@v1
         with:
           allowUpdates: True

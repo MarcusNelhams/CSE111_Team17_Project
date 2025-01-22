@@ -1,5 +1,5 @@
 
-assignment.pdf: main.md
+report.pdf: main.md
 	pandoc --from=markdown \
 	 --to=latex \
 	 --toc \

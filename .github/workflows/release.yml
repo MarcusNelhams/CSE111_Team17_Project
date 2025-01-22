@@ -12,6 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: Install Tools
         run: |
+          sudo apt update
+          sudo apt install -y pandoc texlive
+          pandoc --version
+          pdflatex --version
+      - name: Build report.pdf
+        run: |
           make -C docs report.pdf
           mv docs/report.pdf hw4_${{ env.TAG_NAME }}.pdf
       - name: Create Tag

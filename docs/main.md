@@ -53,18 +53,18 @@ You will submit on Gradescope: <https://www.gradescope.com/courses/941028/assign
 Please provide links to the following:
 
 1.
-    1. Your team number.
-    1. Link to your final project repository.
-    2. Link to your starter code repository.
+    1. Your team number : 17
+    1. Link to your final project repository: https://github.com/MarcusNelhams/CSE111_Team17_Project
+    2. Link to your starter code repository: https://github.com/MarcusNelhams/CSE111_Team17_Project_Starter_Code
 
 2.
     1. Link to a **FAILING** action run that builds your final project source files.
-    2. Link to a **PASSING** action run that builds your final project source files.
+    2. Link to a **PASSING** action run that builds your final project source files: https://github.com/MarcusNelhams/CSE111_Team17_Project/actions/runs/12915696682/job/36018149656
 
 3.
     1. Link to a **FAILING** action that verifies the format of your final project source files.
-    2. Link to a **PASSING** action that verifies the format of your final project source files.
+    2. Link to a **PASSING** action that verifies the format of your final project source files: https://github.com/MarcusNelhams/CSE111_Team17_Project/actions/runs/12915696682/job/36018149656
 
 4.
-    1. Link to a **PASSING** action that built and released your final project report PDF.
+    1. Link to a **PASSING** action that built and released your final project report PDF: https://github.com/MarcusNelhams/CSE111_Team17_Project/actions/runs/12915696682/job/36018149656
     2. Link to the released PDF file.
